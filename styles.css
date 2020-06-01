@@ -5,7 +5,7 @@ body {
 
 #main {
   background: #eeeeee;
-  border-radius: 1%;
+  border-radius: 5px;
 }
 
 #title {
@@ -15,9 +15,17 @@ body {
   font-size: 50px;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
 #img-div {
   text-align: center;
   background-color: white;
+  height: 545px;
 }
 
 #img-caption {
@@ -31,6 +39,24 @@ body {
 
 #headline {
   text-align: center;
+}
+
+#p {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+#h2 {
+  text-align: center;
+}
+
+#tribute-link {
+  color: #477ca7;
+}
+
+#tribute-link:visited {
+  color: #74638f;
 }
 
 p {
