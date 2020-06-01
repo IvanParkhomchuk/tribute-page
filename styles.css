@@ -8,6 +8,12 @@ body {
   border-radius: 5px;
 }
 
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
 #title {
   text-align: center;
   padding-top: 40px;
@@ -31,6 +37,12 @@ img {
 #img-caption {
   margin-top: 5px;
   font-size: 20px;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
 }
 
 #tribute-info {
